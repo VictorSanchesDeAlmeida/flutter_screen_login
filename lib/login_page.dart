@@ -124,7 +124,7 @@ class _LoginPageState extends State<LoginPage> {
       controller: controller,
       decoration: InputDecoration(
           suffixIcon:
-              isPassword ? Icon(Icons.remove_red_eye) : Icon(Icons.done)),
+              isPassword ? const Icon(Icons.remove_red_eye) : const Icon(Icons.done)),
       obscureText: isPassword,
     );
   }
